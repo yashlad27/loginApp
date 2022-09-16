@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Toast.makeText(this, "Hi there!", Toast.LENGTH_SHORT).show();
 
-        Toast.makeText(this, "Hello "+editYourName.getText(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello "+editYourName.getText().toString(), Toast.LENGTH_SHORT).show();
     }
 
     public void ClickToPassword(View view){
